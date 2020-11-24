@@ -7,7 +7,7 @@ namespace nc
 	{
 	public:
 		// Inherited via Resource
-		virtual bool Create(const std::string name, void* data = nullptr) override;
+		virtual bool Create(const std::string& name, void* data = nullptr) override;
 		virtual void Destory() override;
 		
 		bool CreateTexture(const std::string& filename, GLenum target = GL_TEXTURE_2D, GLuint unit = GL_TEXTURE0);

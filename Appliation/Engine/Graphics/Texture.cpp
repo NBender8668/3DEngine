@@ -5,7 +5,7 @@
 namespace nc
 {
 
-    bool Texture::Create(const std::string name, void* data)
+    bool Texture::Create(const std::string& name, void* data)
     {
         return CreateTexture(name);
     }

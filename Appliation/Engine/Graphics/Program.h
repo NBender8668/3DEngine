@@ -10,7 +10,7 @@ namespace nc
 	public:
 		
 		// Inherited via Resource
-		virtual bool Create(const std::string name, void* data = nullptr) override;
+		virtual bool Create(const std::string& name, void* data = nullptr) override;
 		virtual void Destory() override;
 
 

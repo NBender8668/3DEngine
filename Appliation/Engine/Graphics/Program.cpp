@@ -3,7 +3,7 @@
 
 namespace nc
 {
-	bool Program::Create(const std::string name, void* data)
+	bool Program::Create(const std::string& name, void* data)
 	{
 		return false;
 	}
